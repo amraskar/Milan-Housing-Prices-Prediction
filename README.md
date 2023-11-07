@@ -52,5 +52,5 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 ![alt text](https://github.com/amraskar/Milan-Housing-Prices-Prediction/blob/3a69e349ea8d2de2c29f9d9998d8a8b998dda2ef/ads.png "Number of announcements in each neighborhood")
 ![alt text](https://github.com/amraskar/Milan-Housing-Prices-Prediction/blob/3a69e349ea8d2de2c29f9d9998d8a8b998dda2ef/prices.png "Average prices in each neighborhood")
 ![alt text](https://github.com/amraskar/Milan-Housing-Prices-Prediction/blob/3a69e349ea8d2de2c29f9d9998d8a8b998dda2ef/heatmap.png "Correlation heatmap")
-![alt text](https://github.com/amraskar/Milan-Housing-Prices-Prediction/blob/3a69e349ea8d2de2c29f9d9998d8a8b998dda2ef/prices.png "Average prices in each neighborhood")
-![alt text](https://github.com/amraskar/Milan-Housing-Prices-Prediction/blob/3a69e349ea8d2de2c29f9d9998d8a8b998dda2ef/prices.png "Average prices in each neighborhood")
+![alt text](https://github.com/amraskar/Milan-Housing-Prices-Prediction/blob/3a69e349ea8d2de2c29f9d9998d8a8b998dda2ef/Distribution.png "distributions")
+![alt text](https://github.com/amraskar/Milan-Housing-Prices-Prediction/blob/3a69e349ea8d2de2c29f9d9998d8a8b998dda2ef/boxplot.png "boxplot")
