@@ -23,4 +23,22 @@ Scraped 2000 apartment announcements from immobiliare.it. With each announcement
 *	Street
 *	.......etc.
 
-  
+## Data Cleaning
+After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
+
+* Removed columns with null values bigger than half the length of dataset.
+*	Extracted numeric data out of price_euro column.
+*	Dropped rows with no price.
+*	Extracted the right number of rooms from rooms column.
+*	Extracted the right surface area from surface column.
+*	Extracted the right number of bathrooms from rooms column.
+*	Extracted the right floor number floor_number column.
+*	Extracted numeric data out of total building floors column.
+*	Extracted numeric data out of condominium fees column.
+*	Filled the null values of condominium fees with the mean of each neighborhood.
+*	Made new columns:
+    * with_disabled_access
+    * with_lift
+    * listing Date
+    * price_m2
+
