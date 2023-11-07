@@ -3,7 +3,7 @@
 * Scraped 2000 announcements from immobiliare.it using python.
 * Engineered features from each announcements. 
 * Optimized Linear Regression, Support Vector Regressor, Decision Tree Regressor, and Random Forest Regressors using GridsearchCV to reach the best model.
-* ![alt text](https://github.com/amraskar/Milan-Housing-Prices-Prediction/blob/3a69e349ea8d2de2c29f9d9998d8a8b998dda2ef/ads.png "Number of announcements in each neighborhood")
+![alt text](https://github.com/amraskar/Milan-Housing-Prices-Prediction/blob/3a69e349ea8d2de2c29f9d9998d8a8b998dda2ef/ads.png "Number of announcements in each neighborhood")
 
 ## Code and Resources Used 
 **Python Version:** 3.11  
@@ -54,3 +54,15 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 ![alt text](https://github.com/amraskar/Milan-Housing-Prices-Prediction/blob/3a69e349ea8d2de2c29f9d9998d8a8b998dda2ef/heatmap.png "Correlation heatmap")
 ![alt text](https://github.com/amraskar/Milan-Housing-Prices-Prediction/blob/3a69e349ea8d2de2c29f9d9998d8a8b998dda2ef/Distribution.png "distributions")
 ![alt text](https://github.com/amraskar/Milan-Housing-Prices-Prediction/blob/3a69e349ea8d2de2c29f9d9998d8a8b998dda2ef/boxplot.png "boxplot")
+
+## Model Building
+
+* First, I transformed the categorical variables into dummy variables.
+* I scaled the data using StandardScaler().
+* I also split the data into train and tests sets with a test size of 20%.
+
+**I tried four different models:**
+* Linear Regression Model
+* Support vector Regressor Model
+* Decision Tree Model
+* Random Forest Model
