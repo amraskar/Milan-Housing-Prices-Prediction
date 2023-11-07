@@ -42,3 +42,11 @@ After scraping the data, I needed to clean it up so that it was usable for our m
     * listing Date
     * price_m2
 
+## EDA
+* I looked at the distributions of the data.
+* The value counts for the various categorical variables.
+* Correlation heatmap.
+* I removed Outliers.
+* Dealing with skewed data.
+  
+![alt text](https://github.com/amraskar/Milan-Housing-Prices-Prediction/blob/3a69e349ea8d2de2c29f9d9998d8a8b998dda2ef/ads.png "Number of announcements in each neighborhood")
